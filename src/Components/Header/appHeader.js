@@ -1,24 +1,24 @@
 import '../../CSS/Home/header.css'
 import { Link } from 'react-router-dom'
 
-const Header = () => {
+const AppHeader = () => {
     return(
-        <header>
+    <header>
             <h2>
             <Link to={'/'}>Home</Link>
             </h2>
-            <div>
+        <div>
             <h2>
-            <Link to={'/about'}>About</Link>
+            <Link to={'/app/staking'}>Staking</Link>
             </h2>
             <h2>
-            <Link to={'/docs'}>Docs</Link>
+            <Link to={'/app/lock'}>Lock</Link>
             </h2>
         </div>
-        </header>
+    </header>
     )
 
 
 }
 
-export default Header 
+export default AppHeader 
