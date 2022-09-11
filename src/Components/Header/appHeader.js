@@ -5,7 +5,7 @@ const AppHeader = () => {
     return(
     <header>
             <h2>
-            <Link to={'/'}>Home</Link>
+            <Link to={'/app'}>Home</Link>
             </h2>
         <div>
             <h2>

@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px solid yellowgreen;
+}
+
+header > h2 {
+    margin-right: 30%;
+    display: flex;
+    
+}
+
+header > div {
+    display: flex;
+    flex-direction: row;
+    gap: 40px
+} 
+a {
+    color: inherit;
+    text-decoration: none;
+}
